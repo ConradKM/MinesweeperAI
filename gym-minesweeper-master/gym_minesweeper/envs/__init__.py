@@ -1,0 +1,1 @@
+from gym_minesweeper.envs.minesweeper import MinesweeperEnv

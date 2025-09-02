@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gym-minesweeper"
+version = "0.0.3"
+authors = [
+  { name="Zhixing Jeffrey Yao", email="jeffreyyao@outlook.com" },
+]
+description = "Environment for OpenAI Gym simulating a minesweeper game"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Jeffreyyao/gym-minesweeper"
+"Bug Tracker" = "https://github.com/Jeffreyyao/gym-minesweeper/issues"
